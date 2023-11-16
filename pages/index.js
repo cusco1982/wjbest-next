@@ -387,6 +387,15 @@ export default function Home() {
                 sizes="(max-width: 768px) 100vw, 33vw"
                 style={{ borderRadius: "5px", position: "" }}
               /> */}
+              <Image
+                src={demolition}
+                alt="construction workers"
+                fill
+                sizes="(max-width: 768px) 100vw, 33vw"
+                style={{ borderRadius: "5px", position: "" }}
+              />
+
+
             </div>
             <div style={{ backgroundColor: "", padding: "15px" }}>
               <h6 style={{ margin: "0", paddingTop: "5px", paddingBottom: "5px" }}>The Fallingwater House</h6>
@@ -492,7 +501,7 @@ export default function Home() {
 
       {/*-------------------- Sponsored companies ---------------------*/}
       <div style={{ backgroundColor: "white", borderTop: "1px solid #c0bdbdf2" }}>
-        <Row style={{ display: "", width: "70vw", backgroundColor: "", margin: "auto", paddingTop: "60px", paddingBottom: "60px", position:'relative' }}>
+        <Row style={{ display: "", width: "70vw", backgroundColor: "", margin: "auto", paddingTop: "60px", paddingBottom: "60px", position: 'relative' }}>
           <Col style={{ backgroundColor: "", paddingLeft: "0" }}><Image src={pabco} alt="pabco" fill sizes="(max-width: 768px) 100vw, 33vw" style={{ position: "" }} /></Col>
           <Col style={{ backgroundColor: "" }}><Image src={threem} alt="3m" fill sizes="(max-width: 768px) 100vw, 33vw" style={{ position: "" }} /></Col>
           <Col style={{ backgroundColor: "" }}><Image src={foam} alt="foam" fill sizes="(max-width: 768px) 100vw, 33vw" style={{ position: "" }} /></Col>
@@ -780,6 +789,14 @@ export default function Home() {
                 sizes="(max-width: 768px) 100vw, 33vw"
                 style={{ borderRadius: "5px", position: "" }}
               /> */}
+              <Image
+                src={demolition}
+                alt="construction workers"
+                fill
+                sizes="(max-width: 768px) 100vw, 33vw"
+                style={{ borderRadius: "5px", position: "" }}
+              />
+
             </div>
             <div style={{ backgroundColor: "", padding: "15px" }}>
               <header style={{ color: "#FF6710", fontSize: ".9em" }}>Industry
@@ -801,7 +818,7 @@ export default function Home() {
             </div>
           </Col>
           <Col style={{ backgroundColor: "", padding: "20px" }}>
-            <div style={{ backgroundColor: "", height: "40vh", position:'relative' }}>
+            <div style={{ backgroundColor: "", height: "40vh", position: 'relative' }}>
               <Image
                 src={demolition}
                 alt="construction workers"
@@ -830,7 +847,7 @@ export default function Home() {
             </div>
           </Col>
           <Col style={{ backgroundColor: "", padding: "20px" }}>
-            <div style={{ backgroundColor: "", height: "40vh", position:'relative' }}>
+            <div style={{ backgroundColor: "", height: "40vh", position: 'relative' }}>
               <Image
                 src={demolition}
                 alt="construction workers"
