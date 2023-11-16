@@ -172,7 +172,7 @@
 
 
 .quoteBkg {
-  background-image: url('../photos/roofmetalpipe.jpg');
+  /* background-image: url('../photos/roofmetalpipe.jpg'); */
   background-position: bottom;
   padding-bottom: 200px;
   background-size: 100% auto;
