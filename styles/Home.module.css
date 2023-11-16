@@ -126,6 +126,7 @@
   width:50vw;
   z-index: 10;
   transform: translate(0, -50px);
+  position: relative;
 }
 .newimage {
   border-radius: 10px;
@@ -171,7 +172,7 @@
 
 
 .quoteBkg {
-  background-image: url('../photos/roofmetalpipe.JPG');
+  background-image: url('../photos/roofmetalpipe.jpg');
   background-position: bottom;
   padding-bottom: 200px;
   background-size: 100% auto;

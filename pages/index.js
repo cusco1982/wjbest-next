@@ -7,7 +7,7 @@ import Jumbotron from '../components/Jumbotron'
 import Image from 'next/image'
 
 import demolition from "../photos/demolition.jpg";
-import chemTank from "../photos/chemTank.JPG";
+import chemTank from "../photos/chemTank.jpg";
 
 import threem from "../photos/brands/3m.jpg";
 import dowCorning from "../photos/brands/dowCorning.jpg";
@@ -330,7 +330,8 @@ export default function Home() {
 
         <div className={styles.videoContainer}>
           <Image className={styles.newimage} src={demolition} alt="construction workers"
-            fill={true}
+            fill
+            sizes="(max-width: 768px) 100vw, 33vw"
           />
         </div>
 
@@ -366,7 +367,7 @@ export default function Home() {
       {/*-------------------- Recent Works ---------------------*/}
       <div style={{ textAlign: "center", backgroundColor: "#f1f1f1f7", padding: "40px" }}>
         <h5 style={{ margin: "0", color: "#FF6710", fontWeight: "600" }}>Featured Project</h5>
-        <h3 style={{ margin: "0", backgroundColor:"" }}><b>Our Recent Works</b></h3>
+        <h3 style={{ margin: "0", backgroundColor: "" }}><b>Our Recent Works</b></h3>
       </div>
 
 
@@ -378,11 +379,12 @@ export default function Home() {
 
 
           <Col style={{ backgroundColor: "", padding: "20px" }}>
-            <div style={{ backgroundColor: "", height: "40vh" }}>
+            <div style={{ backgroundColor: "", height: "40vh", position: 'relative' }}>
               <Image
                 src={chemTank}
                 alt="chemical tank"
-                layout="fill"
+                fill
+                sizes="(max-width: 768px) 100vw, 33vw"
                 style={{ borderRadius: "5px", position: "" }}
               />
             </div>
@@ -406,11 +408,12 @@ export default function Home() {
 
 
           <Col style={{ backgroundColor: "", padding: "20px" }}>
-            <div style={{ backgroundColor: "", height: "40vh" }}>
+            <div style={{ backgroundColor: "", height: "40vh", position: 'relative' }}>
               <Image
                 src={demolition}
                 alt="construction workers"
-                layout="fill"
+                fill
+                sizes="(max-width: 768px) 100vw, 33vw"
                 style={{ borderRadius: "5px", position: "" }}
               />
             </div>
@@ -434,11 +437,12 @@ export default function Home() {
 
 
           <Col style={{ backgroundColor: "", padding: "20px" }}>
-            <div style={{ backgroundColor: "", height: "40vh" }}>
+            <div style={{ backgroundColor: "", height: "40vh", position: 'relative' }}>
               <Image
                 src={demolition}
                 alt="construction workers"
-                layout="fill"
+                fill
+                sizes="(max-width: 768px) 100vw, 33vw"
                 style={{ borderRadius: "5px", position: "" }}
               />
             </div>
@@ -487,16 +491,16 @@ export default function Home() {
 
 
       {/*-------------------- Sponsored companies ---------------------*/}
-      <div style={{ backgroundColor: "white", borderTop:"1px solid #c0bdbdf2" }}>
-        <Row style={{ display: "", width: "70vw", backgroundColor: "", margin: "auto", paddingTop: "60px", paddingBottom: "60px" }}>
-          <Col style={{ backgroundColor: "", paddingLeft: "0" }}><Image src={pabco} alt="pabco" layout="fill" style={{ position: "" }} /></Col>
-          <Col style={{ backgroundColor: "" }}><Image src={threem} alt="3m" layout="fill" style={{ position: "" }} /></Col>
-          <Col style={{ backgroundColor: "" }}><Image src={foam} alt="foam" layout="fill" style={{ position: "" }} /></Col>
-          <Col style={{ backgroundColor: "" }}><Image src={johnsmanville} alt="johnsmanville" layout="fill" style={{ position: "" }} /></Col>
-          <Col style={{ backgroundColor: "" }}><Image src={knauf} alt="knauf" layout="fill" style={{ position: "" }} /></Col>
-          <Col style={{ backgroundColor: "" }}><Image src={proto} alt="proto" layout="fill" style={{ position: "" }} /></Col>
-          <Col style={{ backgroundColor: "" }}><Image src={venture} alt="venture" layout="fill" style={{ position: "" }} /></Col>
-          <Col style={{ backgroundColor: "", paddingRight: "0" }}><Image src={dowCorning} alt="dowcorning" layout="fill" style={{ position: "" }} /></Col>
+      <div style={{ backgroundColor: "white", borderTop: "1px solid #c0bdbdf2" }}>
+        <Row style={{ display: "", width: "70vw", backgroundColor: "", margin: "auto", paddingTop: "60px", paddingBottom: "60px", position:'relative' }}>
+          <Col style={{ backgroundColor: "", paddingLeft: "0" }}><Image src={pabco} alt="pabco" fill sizes="(max-width: 768px) 100vw, 33vw" style={{ position: "" }} /></Col>
+          <Col style={{ backgroundColor: "" }}><Image src={threem} alt="3m" fill sizes="(max-width: 768px) 100vw, 33vw" style={{ position: "" }} /></Col>
+          <Col style={{ backgroundColor: "" }}><Image src={foam} alt="foam" fill sizes="(max-width: 768px) 100vw, 33vw" style={{ position: "" }} /></Col>
+          <Col style={{ backgroundColor: "" }}><Image src={johnsmanville} alt="johnsmanville" fill sizes="(max-width: 768px) 100vw, 33vw" style={{ position: "" }} /></Col>
+          <Col style={{ backgroundColor: "" }}><Image src={knauf} alt="knauf" fill sizes="(max-width: 768px) 100vw, 33vw" style={{ position: "" }} /></Col>
+          <Col style={{ backgroundColor: "" }}><Image src={proto} alt="proto" fill sizes="(max-width: 768px) 100vw, 33vw" style={{ position: "" }} /></Col>
+          <Col style={{ backgroundColor: "" }}><Image src={venture} alt="venture" fill sizes="(max-width: 768px) 100vw, 33vw" style={{ position: "" }} /></Col>
+          <Col style={{ backgroundColor: "", paddingRight: "0" }}><Image src={dowCorning} alt="dowcorning" fill sizes="(max-width: 768px) 100vw, 33vw" style={{ position: "" }} /></Col>
         </Row>
       </div>
 
@@ -768,11 +772,12 @@ export default function Home() {
 
         <Row style={{ backgroundColor: "", width: "70vw", margin: "auto" }}>
           <Col style={{ backgroundColor: "", padding: "20px" }}>
-            <div style={{ backgroundColor: "", height: "40vh" }}>
+            <div style={{ backgroundColor: "", height: "40vh", position: 'relative' }}>
               <Image
                 src={chemTank}
                 alt="chemical tank"
-                layout="fill"
+                fill
+                sizes="(max-width: 768px) 100vw, 33vw"
                 style={{ borderRadius: "5px", position: "" }}
               />
             </div>
@@ -796,11 +801,12 @@ export default function Home() {
             </div>
           </Col>
           <Col style={{ backgroundColor: "", padding: "20px" }}>
-            <div style={{ backgroundColor: "", height: "40vh" }}>
+            <div style={{ backgroundColor: "", height: "40vh", position:'relative' }}>
               <Image
                 src={demolition}
                 alt="construction workers"
-                layout="fill"
+                fill
+                sizes="(max-width: 768px) 100vw, 33vw"
                 style={{ borderRadius: "5px", position: "" }}
               />
             </div>
@@ -824,11 +830,12 @@ export default function Home() {
             </div>
           </Col>
           <Col style={{ backgroundColor: "", padding: "20px" }}>
-            <div style={{ backgroundColor: "", height: "40vh" }}>
+            <div style={{ backgroundColor: "", height: "40vh", position:'relative' }}>
               <Image
                 src={demolition}
                 alt="construction workers"
-                layout="fill"
+                fill
+                sizes="(max-width: 768px) 100vw, 33vw"
                 style={{ borderRadius: "5px", position: "" }}
               />
             </div>
