@@ -1,0 +1,483 @@
+.container {
+  padding: 0;
+}
+
+
+
+
+
+
+
+.introCol {
+  /* background-color: red; */
+  margin: auto;
+  /* display: flex; */
+  width: 90vw;
+}
+.introColLeft {
+  /* background-color: pink; */
+  /* display: flex; */
+  height: 105px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.introColLeft>div {
+  /* background-color: blue; */
+  display: flex;
+  margin-top: auto;
+  padding-bottom: 20px;
+}
+.introColLeft>div>div:first-child {
+
+  margin: auto;
+  padding: 8px;
+  background-color: #FF6710;
+  border-radius: 25px;
+}
+.introSettingBox {
+  background-color: #FF6710;
+  height: 210px;
+  color: white;
+  padding: 35px;
+  padding-left: 40px;
+  transform: translate(0, -50%);
+  border-radius: 10px;
+  background-image: url(https://cdn1.iconfinder.com/data/icons/business-finance-123/512/business_0006-512.png);
+  background-position: bottom right;
+  background-size: 100px;
+  background-repeat: no-repeat;
+}
+.gearCol {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+.servicesRow{
+  background-color: #f1f1f1f2;
+}
+.servicesRow>div{
+  width: 70vw;
+  display: flex;
+  margin: auto;
+  height: 60vh;
+}
+.servicesRow>div>div:first-child{
+  color: white;
+  background-color: #FF6710;
+  padding:30px;
+  padding-right: 0px;
+  border-radius: 12px;
+  padding-bottom: 50px;
+}
+.servicesRow>div>div:nth-child(2){
+  color: black;
+  background-color: white;
+  padding:30px;
+  padding-right: 0px;
+  border-radius: 12px;
+  margin-right: 2vw;
+  margin-left: 2vw;
+}
+.servicesRow>div>div:nth-child(3){
+  color: black;
+  background-color: white;
+  padding:30px;
+  padding-right: 0px;
+  border-radius: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.videoRow{
+  display: flex;
+  position: relative;
+}
+.videoText{
+  background-color: #FF6710;
+  color: whitesmoke;
+  width: 50vw;
+}
+.videoContainer{
+  width:50vw;
+  z-index: 10;
+  transform: translate(0, -50px);
+}
+.newimage {
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* testiomny */
+.testimony{
+  /* background-color: pink; */
+  width: 100vw;
+  margin: auto;
+  display: flex;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.quoteBkg {
+  background-image: url('../photos/roofmetalpipe.JPG');
+  background-position: bottom;
+  padding-bottom: 200px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: black;
+  /* opacity: .9; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------   MEDIUM  ------------------------- */
+
+@media screen and (min-width: 965px) {
+
+
+
+
+
+
+
+
+
+  
+
+  .introCol {
+    /* background-color: red; */
+    margin: auto;
+    display: flex;
+    width: 80vw;
+  }
+
+  .introColLeft {
+    /* background-color: pink; */
+    display: initial;
+    height: 105px;
+    padding-top: 20px;
+    margin:0;
+  }
+
+  .introColLeft>div {
+    /* background-color: blue; */
+    display: flex;
+    margin-top: auto;
+    /* padding: 0; */
+
+  }
+
+  .introColLeft>div>div:first-child {
+    margin: auto;
+    padding: 8px;
+    background-color: #FF6710;
+    border-radius: 25px;
+  }
+
+
+
+
+  /* .Logo :nth-child(2) { */
+
+  .gearCol {
+    display: initial;
+  }
+
+  .introSettingBox {
+    background-color: #FF6710;
+    height: 210px;
+    color: white;
+    padding: 35px;
+    padding-left: 40px;
+    transform: translate(0);
+    border-radius: 10px;
+    background-image: url(https://cdn1.iconfinder.com/data/icons/business-finance-123/512/business_0006-512.png);
+    background-position: bottom right;
+    background-size: 100px;
+    background-repeat: no-repeat;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------  LARGE  ------------------------- */
+
+@media screen and (min-width: 1100px) {
+
+
+
+
+
+
+
+
+
+  .introCol {
+    /* background-color: red; */
+    margin: auto;
+    display: flex;
+    width: 70vw;
+  }
+
+  .introColLeft {
+    /* background-color: pink; */
+    display: flex;
+    height: 105px;
+  }
+
+
+  .introColLeft>div {
+    /* background-color: blue; */
+    display: flex;
+    margin-top: auto;
+    padding: 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .gearCol {
+    display: initial;
+    /* background-color: black; */
+    z-index: 10;
+  }
+
+  .introSettingBox {
+    background-color: #FF6710;
+    height: 210px;
+    color: white;
+    padding: 35px;
+    padding-left: 40px;
+    transform: translate(0, -50%);
+    border-radius: 10px;
+    background-image: url(https://cdn1.iconfinder.com/data/icons/business-finance-123/512/business_0006-512.png);
+    background-position: bottom right;
+    background-size: 100px;
+    background-repeat: no-repeat;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .servicesRow>div{
+    width: 70vw;
+    display: flex;
+    margin: auto;
+    height: 60vh;
+  }
+
+
+  
+
+  .servicesRow>div>div:first-child{
+    color: white;
+    background-color: #FF6710;
+    padding:30px;
+    padding-right: 0px;
+    border-radius: 12px;
+    padding-bottom: 50px;
+  }
+  .servicesRow>div>div:nth-child(2){
+    color: black;
+    background-color: white;
+    padding:30px;
+    padding-right: 0px;
+    border-radius: 12px;
+    margin-right: 2vw;
+    margin-left: 2vw;
+  }
+  .servicesRow>div>div:nth-child(3){
+    color: black;
+    background-color: white;
+    padding:30px;
+    padding-right: 0px;
+    border-radius: 12px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .testimony{
+    /* background-color: purple; */
+    width: 55vw;
+    margin: auto;
+    display: flex;
+    padding: 20px;
+  }
+
+  .testimony>div:first-child{
+    width: 30%;
+    /* background-color: orange; */
+    margin: auto;
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
