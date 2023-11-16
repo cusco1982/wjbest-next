@@ -42,7 +42,7 @@
   padding-left: 40px;
   transform: translate(0, -50%);
   border-radius: 10px;
-  /* background-image: url(https://cdn1.iconfinder.com/data/icons/business-finance-123/512/business_0006-512.png); */
+  background-image: url(https://cdn1.iconfinder.com/data/icons/business-finance-123/512/business_0006-512.png);
   background-position: bottom right;
   background-size: 100px;
   background-repeat: no-repeat;
@@ -172,7 +172,7 @@
 
 
 .quoteBkg {
-  /* background-image: url('../photos/roofmetalpipe.jpg'); */
+  background-image: url('../photos/roofmetalpipe.jpg');
   background-position: bottom;
   padding-bottom: 200px;
   background-size: 100% auto;
@@ -257,7 +257,7 @@
     padding-left: 40px;
     transform: translate(0);
     border-radius: 10px;
-    /* background-image: url(https://cdn1.iconfinder.com/data/icons/business-finance-123/512/business_0006-512.png); */
+    background-image: url(https://cdn1.iconfinder.com/data/icons/business-finance-123/512/business_0006-512.png);
     background-position: bottom right;
     background-size: 100px;
     background-repeat: no-repeat;

@@ -7,7 +7,7 @@ import Jumbotron from '../components/Jumbotron'
 import Image from 'next/image'
 
 import demolition from "../photos/demolition.jpg";
-import chemTank from "../photos/chemTank.jpg";
+// import chemTank from "../photos/chemTank.jpg";
 
 import threem from "../photos/brands/3m.jpg";
 import dowCorning from "../photos/brands/dowCorning.jpg";
@@ -380,13 +380,13 @@ export default function Home() {
 
           <Col style={{ backgroundColor: "", padding: "20px" }}>
             <div style={{ backgroundColor: "", height: "40vh", position: 'relative' }}>
-              <Image
+              {/* <Image
                 src={chemTank}
                 alt="chemical tank"
                 fill
                 sizes="(max-width: 768px) 100vw, 33vw"
                 style={{ borderRadius: "5px", position: "" }}
-              />
+              /> */}
             </div>
             <div style={{ backgroundColor: "", padding: "15px" }}>
               <h6 style={{ margin: "0", paddingTop: "5px", paddingBottom: "5px" }}>The Fallingwater House</h6>
@@ -773,13 +773,13 @@ export default function Home() {
         <Row style={{ backgroundColor: "", width: "70vw", margin: "auto" }}>
           <Col style={{ backgroundColor: "", padding: "20px" }}>
             <div style={{ backgroundColor: "", height: "40vh", position: 'relative' }}>
-              <Image
+              {/* <Image
                 src={chemTank}
                 alt="chemical tank"
                 fill
                 sizes="(max-width: 768px) 100vw, 33vw"
                 style={{ borderRadius: "5px", position: "" }}
-              />
+              /> */}
             </div>
             <div style={{ backgroundColor: "", padding: "15px" }}>
               <header style={{ color: "#FF6710", fontSize: ".9em" }}>Industry
