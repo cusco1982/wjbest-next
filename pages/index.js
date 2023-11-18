@@ -105,7 +105,7 @@ export default function Home() {
               </div>
               <Col style={{ backgroundColor: "white", margin: "", paddingLeft: "20px" }}>
                 <h6 style={{ backgroundColor: "", margin: "0", paddingBottom: "8px" }}>Our Location</h6>
-                <p style={{ padding: "", margin: "0", backgroundColor: "", fontSize: ".85em", paddingBottom: "5px" }}>2 Nora Rd Edison</p>
+                <p style={{ padding: "", margin: "0", backgroundColor: "", fontSize: ".85em", paddingBottom: "5px" }}>Edison</p>
                 <p style={{ padding: "", margin: "0", backgroundColor: "", fontSize: ".85em" }}>New Jersey, United States</p>
               </Col>
             </Col>
@@ -124,7 +124,7 @@ export default function Home() {
                 <div style={{ display: "flex", backgroundColor: "" }}>
                   <p style={{ marginTop: "auto", marginBottom: "auto", paddingRight: "15px", backgroundColor: "" }}>Learn More</p>
                   <div style={{ backgroundColor: "whitesmoke", padding: "2px", borderRadius: "15px" }}>
-                    <svg style={{ backgroundColor: "", color: "#ff6408" }} xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" /></svg>
+                    <svg id='services' style={{ backgroundColor: "", color: "#ff6408" }} xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" /></svg>
                   </div>
                 </div>
               </a>
@@ -318,7 +318,7 @@ export default function Home() {
               <Col>
                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-patch-check-fill" viewBox="0 0 16 16"><path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z" /></svg>
                 <h5 style={{ paddingTop: "10px", paddingBottom: "10px", margin: "0" }}>Award Winning <br /> Project</h5>
-                <p style={{ backgroundColor: "", fontSize: ".8em", width: "95%" }}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit sit adipisci aliquam unde ullam voluptatem earum ea.</p>
+                <p id='gallery' style={{ backgroundColor: "", fontSize: ".8em", width: "95%" }}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit sit adipisci aliquam unde ullam voluptatem earum ea.</p>
               </Col>
             </Row>
           </div>
@@ -562,7 +562,7 @@ export default function Home() {
                     <div style={{ backgroundColor: "#FF6710", margin: "", display: "flex", borderRadius: "30px" }}>
                       <svg style={{ margin: "auto" }} xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-check-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" /></svg>
                     </div>
-                    <span style={{ paddingLeft: "10px", color: "white" }} >Unrivalled Workmanship Professional And Qualified</span>
+                    <span id='quote' style={{ paddingLeft: "10px", color: "white" }} >Unrivaled Workmanship Professional And Qualified</span>
                   </div>
                 </div>
               </div>
@@ -869,7 +869,7 @@ export default function Home() {
                 <div style={{ backgroundColor: "", padding: "15px", width: "90%", margin: "", display: "flex", justifyContent: "start", borderTop: "2px solid transparent" }}>
                   <div style={{ marginTop: "auto", marginBottom: "auto", paddingRight: "25px" }}>Read More</div>
                   <div style={{ backgroundColor: "black", padding: "3px", borderRadius: "25px" }}>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" /></svg>
+                    <svg id='contact' xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" /></svg>
                   </div>
                 </div>
               </a>
