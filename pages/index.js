@@ -87,14 +87,16 @@ export default function Home() {
 
 
           <Col className={styles.introColLeft}>
+
+
             <Col>
               <div>
                 <svg style={{ backgroundColor: "", color: "white" }} xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" /></svg>
               </div>
-              <Col style={{ backgroundColor: "white", margin: "", paddingLeft: "20px" }}>
+              <Col style={{ backgroundColor: "", margin: "", paddingLeft: "20px" }}>
                 <h6 style={{ backgroundColor: "", margin: "0", paddingBottom: "8px" }}>Quick Contact</h6>
-                <p style={{ padding: "", margin: "0", backgroundColor: "", fontSize: ".85em", paddingBottom: "5px" }}>Email: cusco2891@gmail.com</p>
-                <p style={{ padding: "", margin: "0", backgroundColor: "", fontSize: ".85em" }}>Phone: 732 910 1016</p>
+                <p style={{ padding: "", margin: "0", backgroundColor: "", fontSize: ".85em", paddingBottom: "5px" }}>wjbestinsulation@gmail.com</p>
+                <p style={{ padding: "", margin: "0", backgroundColor: "", fontSize: ".85em" }}>Phone: (732)910-1016</p>
               </Col>
             </Col>
 
@@ -679,7 +681,7 @@ export default function Home() {
                   <textarea style={{ width: "85%", backgroundColor: "#DADADA", border: 'none', borderRadius: "4px", textIndent: "10px", height: "150px" }} name="text" class="validate[required,length[6,300]] feedback-input" placeholder="Addition Detail"></textarea>
                 </div>
                 <div style={{ backgroundColor: "", paddingLeft: "10px", paddingTop: "10px", display: "flex" }}>
-                  <div style={{ backgroundColor: "black", color: "white", display: "", padding: "20px", paddingRight: "30px", paddingLeft: "30px", borderRadius: "7px" }}>
+                  <div className='btn' style={{ backgroundColor: "black", color: "white", display: "", padding: "20px", paddingRight: "30px", paddingLeft: "30px", borderRadius: "7px" }}>
                     Submit Request
                   </div>
                   <div style={{ marginTop: "auto", marginBottom: "auto", backgroundColor: "", paddingLeft: "20px" }}>

@@ -24,8 +24,8 @@ function Jumbotron() {
                     <h1>Provide Effective <br /> Building Solutions!</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus libero doloribus laborum exercitationem facere molestias, nisi animi ratione a. Repellendus dit corporis adipisci magnam laudantium voluptas.</p>
                     <div>
-                        <a href="/services">Our Services</a>
-                        <a href="/">More About Us!</a>
+                        <a href="/services#servicegrid">Our Services</a>
+                        <a href="/#services">More About Us!</a>
                     </div>
                 </Carousel.Caption>
 
