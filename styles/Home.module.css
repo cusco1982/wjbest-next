@@ -14,6 +14,7 @@
   /* display: flex; */
   width: 90vw;
 }
+
 .introColLeft {
   /* background-color: pink; */
   /* display: flex; */
@@ -21,12 +22,14 @@
   margin-top: 20px;
   margin-bottom: 50px;
 }
+
 .introColLeft>div {
   /* background-color: blue; */
   display: flex;
   margin-top: auto;
   padding-bottom: 20px;
 }
+
 .introColLeft>div>div:first-child {
 
   margin: auto;
@@ -34,6 +37,7 @@
   background-color: #FF6710;
   border-radius: 25px;
 }
+
 .introSettingBox {
   background-color: #FF6710;
   height: 210px;
@@ -47,6 +51,7 @@
   background-size: 100px;
   background-repeat: no-repeat;
 }
+
 .gearCol {
   display: none;
 }
@@ -61,36 +66,40 @@
 
 
 
-.servicesRow{
+.servicesRow {
   background-color: #f1f1f1f2;
 }
-.servicesRow>div{
+
+.servicesRow>div {
   width: 70vw;
   display: flex;
   margin: auto;
   height: 60vh;
 }
-.servicesRow>div>div:first-child{
+
+.servicesRow>div>div:first-child {
   color: white;
   background-color: #FF6710;
-  padding:30px;
+  padding: 30px;
   padding-right: 0px;
   border-radius: 12px;
   padding-bottom: 50px;
 }
-.servicesRow>div>div:nth-child(2){
+
+.servicesRow>div>div:nth-child(2) {
   color: black;
   background-color: white;
-  padding:30px;
+  padding: 30px;
   padding-right: 0px;
   border-radius: 12px;
   margin-right: 2vw;
   margin-left: 2vw;
 }
-.servicesRow>div>div:nth-child(3){
+
+.servicesRow>div>div:nth-child(3) {
   color: black;
   background-color: white;
-  padding:30px;
+  padding: 30px;
   padding-right: 0px;
   border-radius: 12px;
 }
@@ -113,21 +122,24 @@
 
 
 
-.videoRow{
+.videoRow {
   display: flex;
   position: relative;
 }
-.videoText{
+
+.videoText {
   background-color: #FF6710;
   color: whitesmoke;
   width: 50vw;
 }
-.videoContainer{
-  width:50vw;
+
+.videoContainer {
+  width: 50vw;
   z-index: 10;
   transform: translate(0, -50px);
   position: relative;
 }
+
 .newimage {
   border-radius: 10px;
 }
@@ -149,7 +161,7 @@
 
 
 /* testiomny */
-.testimony{
+.testimony {
   /* background-color: pink; */
   width: 100vw;
   margin: auto;
@@ -210,7 +222,7 @@
 
 
 
-  
+
 
   .introCol {
     /* background-color: red; */
@@ -224,7 +236,7 @@
     display: initial;
     height: 105px;
     padding-top: 20px;
-    margin:0;
+    margin: 0;
   }
 
   .introColLeft>div {
@@ -390,7 +402,7 @@
 
 
 
-  .servicesRow>div{
+  .servicesRow>div {
     width: 70vw;
     display: flex;
     margin: auto;
@@ -398,29 +410,31 @@
   }
 
 
-  
 
-  .servicesRow>div>div:first-child{
+
+  .servicesRow>div>div:first-child {
     color: white;
     background-color: #FF6710;
-    padding:30px;
+    padding: 30px;
     padding-right: 0px;
     border-radius: 12px;
     padding-bottom: 50px;
   }
-  .servicesRow>div>div:nth-child(2){
+
+  .servicesRow>div>div:nth-child(2) {
     color: black;
     background-color: white;
-    padding:30px;
+    padding: 30px;
     padding-right: 0px;
     border-radius: 12px;
     margin-right: 2vw;
     margin-left: 2vw;
   }
-  .servicesRow>div>div:nth-child(3){
+
+  .servicesRow>div>div:nth-child(3) {
     color: black;
     background-color: white;
-    padding:30px;
+    padding: 30px;
     padding-right: 0px;
     border-radius: 12px;
   }
@@ -451,22 +465,24 @@
 
 
 
-
-  .testimony{
+  .testimony {
     /* background-color: purple; */
     width: 55vw;
     margin: auto;
-    display: flex;
+    /* display: flex; */
+    display: none;
     padding: 20px;
   }
 
-  .testimony>div:first-child{
+  .testimony>div:first-child {
     width: 30%;
     /* background-color: orange; */
     margin: auto;
+    display: none;
+
   }
-  
-  
+
+
 
 
 

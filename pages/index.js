@@ -96,7 +96,8 @@ export default function Home() {
               </div>
               <Col style={{ backgroundColor: "", margin: "", paddingLeft: "20px" }}>
                 <h6 style={{ backgroundColor: "", margin: "0", paddingBottom: "8px" }}>Quick Contact</h6>
-                <p style={{ padding: "", margin: "0", backgroundColor: "", fontSize: ".85em", paddingBottom: "5px" }}>Email: wjbestinsulation@gmail.com</p>
+                {/* <p style={{ padding: "", margin: "0", backgroundColor: "", fontSize: ".85em", paddingBottom: "5px" }}>Email: wjbestinsulation@gmail.com</p> */}
+                <p style={{ padding: "", margin: "0", backgroundColor: "", fontSize: ".85em", paddingBottom: "5px" }}>wjbestinsulation@gmail.com</p>
                 <p style={{ padding: "", margin: "0", backgroundColor: "", fontSize: ".85em" }}>Phone: (732)910-1016</p>
               </Col>
             </Col>
@@ -121,11 +122,11 @@ export default function Home() {
           <Col className={styles.gearCol}>
             <div className={styles.introSettingBox}>
               <h6 style={{ margin: "0", paddingBottom: "5px", fontWeight: "700", fontSize: "1.15em" }}>A leading Developer Of A Grade</h6>
-              <h6 style={{ margin: "0", fontWeight: "700", fontSize: "1.15em" }}>Commerical & Residential projects</h6>
-              <p style={{ margin: "0", paddingTop: "20px", paddingBottom: "20px", fontSize: ".8em" }}>Lorem ipsum dolor, sit amet consectetur adipisicing elit <br /> Laboriosam, nihil!</p>
-              <a style={{ color: "white", textDecoration: "none", fontSize: ".8em", fontWeight: "500" }} href="/">
+              <h6 style={{ margin: "0", fontWeight: "700", fontSize: "1.15em" }}>Commerical & Industrial projects</h6>
+              <p style={{ margin: "0", paddingTop: "20px", paddingBottom: "20px", fontSize: ".8em" }}>Best Insulation has worked on every type of project. <br /> Take a look at some of our work!</p>
+              <a style={{ color: "white", textDecoration: "none", fontSize: ".8em", fontWeight: "500" }} href="/#projects">
                 <div style={{ display: "flex", backgroundColor: "" }}>
-                  <p style={{ marginTop: "auto", marginBottom: "auto", paddingRight: "15px", backgroundColor: "" }}>Learn More</p>
+                  <p style={{ marginTop: "auto", marginBottom: "auto", paddingRight: "15px", backgroundColor: "" }}>More Projects</p>
                   <div style={{ backgroundColor: "whitesmoke", padding: "2px", borderRadius: "15px" }}>
                     <svg id='services' style={{ backgroundColor: "", color: "#ff6408" }} xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" /></svg>
                   </div>
@@ -171,9 +172,9 @@ export default function Home() {
 
       <div style={{ paddingBottom: "52.5px", backgroundColor: "#f1f1f1f2", paddingTop: '50px' }}>
         <Col style={{ backgroundColor: "", textAlign: "center" }}>
-          <h6 style={{ color: "#FF6710", margin: "0" }}>The Best A Grade Commerical & Residential Services</h6>
+          <h6 style={{ color: "#FF6710", margin: "0" }}>The Best A Grade Commerical & Industrial Services</h6>
           <h3 style={{ margin: "0" }}>High Quality Construction Solution</h3>
-          <h3 style={{ margin: "0", fontSize: "1.7em" }}>For Residentials & Industries</h3>
+          <h3 style={{ margin: "0", fontSize: "1.7em" }}>For Commercial & Industrial</h3>
         </Col>
       </div>
 
@@ -194,13 +195,13 @@ export default function Home() {
               <div style={{ height: "", backgroundColor: "", borderBottom: "2px solid white" }}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-bricks" viewBox="0 0 16 16"><path d="M0 .5A.5.5 0 0 1 .5 0h15a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H14v2h1.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H14v2h1.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5H2v-2H.5a.5.5 0 0 1-.5-.5v-3A.5.5 0 0 1 .5 6H2V4H.5a.5.5 0 0 1-.5-.5v-3zM3 4v2h4.5V4H3zm5.5 0v2H13V4H8.5zM3 10v2h4.5v-2H3zm5.5 0v2H13v-2H8.5zM1 1v2h3.5V1H1zm4.5 0v2h5V1h-5zm6 0v2H15V1h-3.5zM1 7v2h3.5V7H1zm4.5 0v2h5V7h-5zm6 0v2H15V7h-3.5zM1 13v2h3.5v-2H1zm4.5 0v2h5v-2h-5zm6 0v2H15v-2h-3.5z" /></svg>
                 <div style={{ paddingTop: "45px", paddingBottom: "45px", backgroundColor: "" }}>
-                  <h6 style={{ margin: "0" }}>Architecture</h6>
-                  <h6 style={{ margin: "0" }}>& Building</h6>
+                  <h6 style={{ margin: "0" }}>Piping</h6>
+                  <h6 style={{ margin: "0" }}>& Ductwork</h6>
                 </div>
               </div>
               <div style={{ height: "", paddingRight: "30px", backgroundColor: "" }}>
                 <p style={{ margin: "0", fontSize: ".85em", paddingTop: "30px", paddingBottom: "30px" }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem assumenda vel quia itaque facere, quaerat quisquam harum cupiditate! Quia, ullam quia itaque facere, quaerat quisquam.</p>
-                <a style={{ textDecoration: "none", color: "white" }} href="">
+                <a style={{ textDecoration: "none", color: "white" }} href="/services">
                   <div style={{ backgroundColor: "", display: "flex" }}>
                     <h6 style={{ backgroundColor: "", marginTop: "auto", marginBottom: "auto", paddingRight: "5px" }}>Read More</h6>
                     <div style={{ backgroundColor: "white", borderRadius: "12px", padding: "2px" }}><svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="#FF6710" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" /></svg></div>
@@ -216,13 +217,15 @@ export default function Home() {
               <div style={{ height: "", backgroundColor: "", borderBottom: "2px solid #FF6710" }}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#FF6710" class="bi bi-tools" viewBox="0 0 16 16"><path d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.27 3.27a.997.997 0 0 0 1.414 0l1.586-1.586a.997.997 0 0 0 0-1.414l-3.27-3.27a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3c0-.269-.035-.53-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814L1 0Zm9.646 10.646a.5.5 0 0 1 .708 0l2.914 2.915a.5.5 0 0 1-.707.707l-2.915-2.914a.5.5 0 0 1 0-.708ZM3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026L3 11Z" /></svg>
                 <div style={{ paddingTop: "45px", paddingBottom: "45px", backgroundColor: "" }}>
-                  <h6 style={{ margin: "0" }}>Contruction</h6>
-                  <h6 style={{ margin: "0" }}>Consultants</h6>
+                  {/* <h6 style={{ margin: "0" }}>Contruction</h6>
+                  <h6 style={{ margin: "0" }}>Consultants</h6> */}
+                  <h6 style={{ margin: "0" }}>Mechanical</h6>
+                  <h6 style={{ margin: "0" }}>Systems</h6>
                 </div>
               </div>
               <div style={{ height: "", paddingRight: "30px", backgroundColor: "" }}>
                 <p style={{ margin: "0", fontSize: ".85em", paddingTop: "30px", paddingBottom: "30px" }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem assumenda vel quia itaque facere, quaerat quisquam harum cupiditate! Quia, ullam quia itaque facere, quaerat quisquam.</p>
-                <a style={{ textDecoration: "none", color: "black" }} href="">
+                <a style={{ textDecoration: "none", color: "black" }} href="/#gallery">
                   <div style={{ backgroundColor: "", display: "flex" }}>
                     <h6 style={{ backgroundColor: "", marginTop: "auto", marginBottom: "auto", paddingRight: "5px" }}>Read More</h6>
                     <div style={{ backgroundColor: "#FF6710", borderRadius: "12px", padding: "2px" }}><svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="white" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" /></svg></div>
@@ -238,13 +241,15 @@ export default function Home() {
               <div style={{ height: "", backgroundColor: "", borderBottom: "2px solid #FF6710" }}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#FF6710" class="bi bi-person-fill-gear" viewBox="0 0 16 16"><path d="M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm-9 8c0 1 1 1 1 1h5.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.544-3.393C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4Zm9.886-3.54c.18-.613 1.048-.613 1.229 0l.043.148a.64.64 0 0 0 .921.382l.136-.074c.561-.306 1.175.308.87.869l-.075.136a.64.64 0 0 0 .382.92l.149.045c.612.18.612 1.048 0 1.229l-.15.043a.64.64 0 0 0-.38.921l.074.136c.305.561-.309 1.175-.87.87l-.136-.075a.64.64 0 0 0-.92.382l-.045.149c-.18.612-1.048.612-1.229 0l-.043-.15a.64.64 0 0 0-.921-.38l-.136.074c-.561.305-1.175-.309-.87-.87l.075-.136a.64.64 0 0 0-.382-.92l-.148-.045c-.613-.18-.613-1.048 0-1.229l.148-.043a.64.64 0 0 0 .382-.921l-.074-.136c-.306-.561.308-1.175.869-.87l.136.075a.64.64 0 0 0 .92-.382l.045-.148ZM14 12.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0Z" /></svg>
                 <div style={{ paddingTop: "45px", paddingBottom: "45px", backgroundColor: "" }}>
-                  <h6 style={{ margin: "0" }}>Contruction</h6>
-                  <h6 style={{ margin: "0" }}>Consultants</h6>
+                  {/* <h6 style={{ margin: "0" }}>Contruction</h6>
+                  <h6 style={{ margin: "0" }}>Consultants</h6> */}
+                  <h6 style={{ margin: "0" }}>Free</h6>
+                  <h6 style={{ margin: "0" }}>Estimates</h6>
                 </div>
               </div>
               <div style={{ height: "", paddingRight: "30px", backgroundColor: "" }}>
                 <p style={{ margin: "0", fontSize: ".85em", paddingTop: "30px", paddingBottom: "30px" }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem assumenda vel quia itaque facere, quaerat quisquam harum cupiditate! Quia, ullam quia itaque facere, quaerat quisquam.</p>
-                <a style={{ textDecoration: "none", color: "black" }} href="">
+                <a style={{ textDecoration: "none", color: "black" }} href="/#quote">
                   <div style={{ backgroundColor: "", display: "flex" }}>
                     <h6 style={{ backgroundColor: "", marginTop: "auto", marginBottom: "auto", paddingRight: "5px" }}>Read More</h6>
                     <div style={{ backgroundColor: "#FF6710", borderRadius: "12px", padding: "2px" }}><svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="white" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" /></svg></div>
@@ -310,7 +315,7 @@ export default function Home() {
 
           <div style={{ width: "60%", margin: "auto", paddingTop: "40px", backgroundColor: "" }}>
             <h5 style={{ margin: "0", padding: "0" }}>World's Leading Industry Corporation</h5>
-            <h3 style={{ margin: "0" }}>Best A Grade Commercial <br /> & Residential Services</h3>
+            <h3 style={{ margin: "0" }}>Best A Grade Commercial <br /> & Industrial Services</h3>
             <p style={{ backgroundColor: "", width: "70%", paddingTop: "20px", paddingBottom: "20px", fontSize: ".8em" }}>There are many variations of passages of Lorem Ipsum available, but the majority have suffered altercation in some form, by injected humor, or randomised words which don't look even slightly believable or randomised words which don't look.</p>
             <Row>
               <Col>
@@ -332,7 +337,9 @@ export default function Home() {
 
 
         <div className={styles.videoContainer}>
-          <Image className={styles.newimage} src={demolition} alt="construction workers"
+          {/* <Image className={styles.newimage} src={demolition} alt="construction workers" */}
+          <Image className={styles.newimage} src={'/photos/roofmetalpipe.jpg'} alt="construction workers"
+
             fill
             sizes="(max-width: 768px) 100vw, 33vw"
           />
@@ -391,7 +398,8 @@ export default function Home() {
                 style={{ borderRadius: "5px", position: "" }}
               /> */}
               <Image
-                src={demolition}
+                // src={demolition}
+                src={'/photos/IMG_1343.JPG'}
                 alt="construction workers"
                 fill
                 sizes="(max-width: 768px) 100vw, 33vw"
@@ -401,12 +409,12 @@ export default function Home() {
 
             </div>
             <div style={{ backgroundColor: "", padding: "15px" }}>
-              <h6 style={{ margin: "0", paddingTop: "5px", paddingBottom: "5px" }}>The Fallingwater House</h6>
+              <h6 style={{ margin: "0", paddingTop: "5px", paddingBottom: "5px" }}>Steam Piping</h6>
               <header style={{ color: "#FF6710", fontSize: ".9em" }}>Building Inertia</header>
               <p style={{ fontSize: ".8em", paddingTop: "10px", paddingBottom: "10px", margin: "0" }}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis facilis repellendus debitis magni deserunt reiciendis, doloremque.</p>
             </div>
             <div style={{ textAlign: "center", paddingTop: "20px", backgroundColor: "", marginTop: "" }}>
-              <a style={{ backgroundColor: "", color: "white", textDecoration: "none" }} href="">
+              <a style={{ backgroundColor: "", color: "white", textDecoration: "none" }} href="/services">
                 <div style={{ backgroundColor: "#FF6710", padding: "10px", width: "90%", margin: "auto", borderTopLeftRadius: "10px", borderTopRightRadius: "10px", display: "flex", justifyContent: "center", borderTop: "2px solid transparent" }}>
                   <div style={{ marginTop: "auto", marginBottom: "auto", paddingRight: "25px" }}>Explore More</div>
                   <div style={{ backgroundColor: "white", padding: "3px", borderRadius: "25px" }}>
@@ -422,7 +430,7 @@ export default function Home() {
           <Col style={{ backgroundColor: "", padding: "20px" }}>
             <div style={{ backgroundColor: "", height: "40vh", position: 'relative' }}>
               <Image
-                src={demolition}
+                src={'/photos/IMG_2315.JPG'}
                 alt="construction workers"
                 fill
                 sizes="(max-width: 768px) 100vw, 33vw"
@@ -430,12 +438,12 @@ export default function Home() {
               />
             </div>
             <div style={{ backgroundColor: "", padding: "15px" }}>
-              <h6 style={{ margin: "0", paddingTop: "5px", paddingBottom: "5px" }}>The Guggenheim Museum</h6>
+              <h6 style={{ margin: "0", paddingTop: "5px", paddingBottom: "5px" }}>Chemical Tank</h6>
               <header style={{ color: "#FF6710", fontSize: ".9em" }}>Constructing, Engineering</header>
               <p style={{ fontSize: ".8em", paddingTop: "10px", paddingBottom: "10px", margin: "0" }}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis facilis repellendus debitis magni deserunt reiciendis, doloremque.</p>
             </div>
             <div style={{ textAlign: "center", paddingTop: "20px", backgroundColor: "", marginTop: "" }}>
-              <a style={{ backgroundColor: "", color: "black", textDecoration: "none", fontWeight: "600" }} href="">
+              <a style={{ backgroundColor: "", color: "black", textDecoration: "none", fontWeight: "600" }} href="/services">
                 <div style={{ backgroundColor: "", padding: "10px", width: "90%", margin: "auto", borderTopLeftRadius: "", borderTopRightRadius: "", display: "flex", justifyContent: "center", borderTop: "1px solid #B8B7B7" }}>
                   <div style={{ marginTop: "auto", marginBottom: "auto", paddingRight: "25px" }}>Explore More</div>
                   <div style={{ backgroundColor: "#FF6710", padding: "3px", borderRadius: "25px" }}>
@@ -451,7 +459,7 @@ export default function Home() {
           <Col style={{ backgroundColor: "", padding: "20px" }}>
             <div style={{ backgroundColor: "", height: "40vh", position: 'relative' }}>
               <Image
-                src={demolition}
+                src={'/photos/IMG_5456.JPG'}
                 alt="construction workers"
                 fill
                 sizes="(max-width: 768px) 100vw, 33vw"
@@ -459,12 +467,12 @@ export default function Home() {
               />
             </div>
             <div style={{ backgroundColor: "", padding: "15px" }}>
-              <h6 style={{ margin: "0", paddingTop: "5px", paddingBottom: "5px" }}>Neue National Gallerie</h6>
+              <h6 style={{ margin: "0", paddingTop: "5px", paddingBottom: "5px" }}>Rooftop Ductwork</h6>
               <header style={{ color: "#FF6710", fontSize: ".9em" }}>Renuvation Architecture</header>
               <p style={{ fontSize: ".8em", paddingTop: "10px", paddingBottom: "10px", margin: "0" }}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis facilis repellendus debitis magni deserunt reiciendis, doloremque.</p>
             </div>
             <div style={{ textAlign: "center", paddingTop: "20px", backgroundColor: "", marginTop: "" }}>
-              <a style={{ backgroundColor: "", color: "black", textDecoration: "none", fontWeight: "600" }} href="">
+              <a style={{ backgroundColor: "", color: "black", textDecoration: "none", fontWeight: "600" }} href="/services">
                 <div style={{ backgroundColor: "", padding: "10px", width: "90%", margin: "auto", borderTopLeftRadius: "", borderTopRightRadius: "", display: "flex", justifyContent: "center", borderTop: "1px solid #B8B7B7" }}>
                   <div style={{ marginTop: "auto", marginBottom: "auto", paddingRight: "25px" }}>Explore More</div>
                   <div style={{ backgroundColor: "#FF6710", padding: "3px", borderRadius: "25px" }}>
@@ -630,22 +638,22 @@ export default function Home() {
                   <div style={{ paddingTop: "15px", paddingBottom: "15px" }}>
                     <header style={{ paddingBottom: "5px", fontWeight: "700" }}>Our Location</header>
                     <div style={{ fontWeight: "300" }}>
-                      <div>2307 Beverly Rd Brooklyn</div>
-                      <div>New York 11225 United States</div>
+                      <div>2 Nora Rd Edison</div>
+                      <div>New Jersey 08837 United States</div>
                     </div>
                   </div>
                   <div>
                     <header style={{ fontWeight: "700" }}>Quick Contact</header>
                     <div style={{ fontWeight: "300" }}>
                       <div>Email: wjbestinsulation@gmail.com</div>
-                      <div>Support: wjbest@gmail.com</div>
+                      {/* <div>Support: wjbest@gmail.com</div> */}
                     </div>
                   </div>
                 </div>
               </div>
               <div style={{ backgroundColor: "#FF6710", height: "50%" }}>
                 <div style={{ backgroundColor: "", width: "80%", margin: "auto", paddingTop: "50px" }}>
-                  <p style={{ fontSize: ".8em", fontWeight: "600" }}>We Will Get back to you within 24 hours, or call us everyday <br /> <br /> 09:00AM - 12:00PM</p>
+                  <p style={{ fontSize: ".8em", fontWeight: "600" }}>We Will Get back to you within 24 hours, or send us an email! <br /> <br /> 09:00 AM - 5:30 PM</p>
                   <div style={{ paddingTop: "5px", fontWeight: "600" }}>
                     <a style={{ textDecoration: "none", color: "white", fontSize: "1.2em" }} href="tel:7329101016">
                       <svg style={{ backgroundColor: "", margin: "auto", padding: "5px", borderRadius: "50%", border: "1px solid white" }} xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" /></svg>
@@ -675,7 +683,8 @@ export default function Home() {
                     <input style={{ height: "40px", width: "70%", backgroundColor: "#DADADA", border: "none", borderRadius: "4px", textIndent: "10px" }} type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder='Phone' />
                   </div>
                   <div style={{ width: "50%" }}>
-                    <input style={{ height: "40px", width: "70%", backgroundColor: "#DADADA", border: "none", borderRadius: "4px", textIndent: "10px" }} type="text" id="industry" name="industry" placeholder='Select Your Industry' />
+                    {/* <input style={{ height: "40px", width: "70%", backgroundColor: "#DADADA", border: "none", borderRadius: "4px", textIndent: "10px" }} type="text" id="industry" name="industry" placeholder='Select Your Industry' /> */}
+                    <input style={{ height: "40px", width: "70%", backgroundColor: "#DADADA", border: "none", borderRadius: "4px", textIndent: "10px" }} type="text" id="industry" name="industry" placeholder='Location' />
                   </div>
                 </div>
                 <div style={{ padding: "10px", paddingLeft: "0" }}>
@@ -726,6 +735,8 @@ export default function Home() {
 
 
         {/*-------------------- client testimony ---------------------*/}
+        {/* gave display none in css */}
+        
         <div className={styles.testimony}>
 
 
@@ -793,7 +804,7 @@ export default function Home() {
                 style={{ borderRadius: "5px", position: "" }}
               /> */}
               <Image
-                src={demolition}
+                src={'/photos/longduct.jpeg'}
                 alt="construction workers"
                 fill
                 sizes="(max-width: 768px) 100vw, 33vw"
@@ -802,7 +813,7 @@ export default function Home() {
 
             </div>
             <div style={{ backgroundColor: "", padding: "15px" }}>
-              <header style={{ color: "#FF6710", fontSize: ".9em" }}>Industry
+              <header style={{ color: "#FF6710", fontSize: ".9em" }}>Ventureclad Finish
                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#FF6710" class="bi bi-dash-lg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z" /></svg>
               </header>
               <h6 style={{ margin: "0", paddingTop: "5px", paddingBottom: "5px", fontWeight: "800" }}>Important archive cost saving through the sale rule</h6>
@@ -823,7 +834,7 @@ export default function Home() {
           <Col style={{ backgroundColor: "", padding: "20px" }}>
             <div style={{ backgroundColor: "", height: "40vh", position: 'relative' }}>
               <Image
-                src={demolition}
+                src={'/photos/symmetrical.JPG'}
                 alt="construction workers"
                 fill
                 sizes="(max-width: 768px) 100vw, 33vw"
@@ -831,7 +842,7 @@ export default function Home() {
               />
             </div>
             <div style={{ backgroundColor: "", padding: "15px" }}>
-              <header style={{ color: "#FF6710", fontSize: ".9em" }}>Construction
+              <header style={{ color: "#FF6710", fontSize: ".9em" }}>Chilled Water
                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#FF6710" class="bi bi-dash-lg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z" /></svg>
               </header>
               <h6 style={{ margin: "0", paddingTop: "5px", paddingBottom: "5px", fontWeight: "800" }}>Cargo flow through better supply chain visibility.</h6>
@@ -852,7 +863,8 @@ export default function Home() {
           <Col style={{ backgroundColor: "", padding: "20px" }}>
             <div style={{ backgroundColor: "", height: "40vh", position: 'relative' }}>
               <Image
-                src={demolition}
+                src={'/photos/IMG_9716.PNG'}
+
                 alt="construction workers"
                 fill
                 sizes="(max-width: 768px) 100vw, 33vw"
@@ -860,7 +872,7 @@ export default function Home() {
               />
             </div>
             <div style={{ backgroundColor: "", padding: "15px" }}>
-              <header style={{ color: "#FF6710", fontSize: ".9em" }}>Engineering
+              <header style={{ color: "#FF6710", fontSize: ".9em" }}>Metal Jacketing
                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#FF6710" class="bi bi-dash-lg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z" /></svg>
               </header>
               <h6 style={{ margin: "0", paddingTop: "5px", paddingBottom: "5px", fontWeight: "800" }}>Importance of a specialized focus in Project Oil & Gas?</h6>
