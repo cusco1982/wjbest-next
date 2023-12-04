@@ -19,6 +19,10 @@ import proto from "../photos/brands/proto.jpg";
 import venture from "../photos/brands/venture.jpg";
 
 
+import piping from '../photos/icons/insulation.png';
+import consulting from '../photos/icons/safety.png';
+
+
 
 export default function Home() {
   return (
@@ -122,7 +126,7 @@ export default function Home() {
           <Col className={styles.gearCol}>
             <div className={styles.introSettingBox}>
               <h6 style={{ margin: "0", paddingBottom: "5px", fontWeight: "700", fontSize: "1.15em" }}>A leading Developer Of A Grade</h6>
-              <h6 style={{ margin: "0", fontWeight: "700", fontSize: "1.15em" }}>Commerical & Industrial projects</h6>
+              <h6 style={{ margin: "0", fontWeight: "700", fontSize: "1.15em" }}>Commercial & Industrial projects</h6>
               <p style={{ margin: "0", paddingTop: "20px", paddingBottom: "20px", fontSize: ".8em" }}>Best Insulation has worked on every type of project. <br /> Take a look at some of our work!</p>
               <a style={{ color: "white", textDecoration: "none", fontSize: ".8em", fontWeight: "500" }} href="/#projects">
                 <div style={{ display: "flex", backgroundColor: "" }}>
@@ -172,13 +176,173 @@ export default function Home() {
 
       <div style={{ paddingBottom: "52.5px", backgroundColor: "#f1f1f1f2", paddingTop: '50px' }}>
         <Col style={{ backgroundColor: "", textAlign: "center" }}>
-          <h6 style={{ color: "#FF6710", margin: "0" }}>The Best A Grade Commerical & Industrial Services</h6>
+          <h6 style={{ color: "#FF6710", margin: "0" }}>The Best A Grade Commercial & Industrial Services</h6>
           <h3 style={{ margin: "0" }}>High Quality Construction Solution</h3>
           <h3 style={{ margin: "0", fontSize: "1.7em" }}>For Commercial & Industrial</h3>
         </Col>
       </div>
 
 
+
+
+      <div className={styles.smallServices}>
+
+
+
+        {/* <div className="row" style={{ backgroundColor: 'red', width: '100vw', margin: '0' }}> */}
+
+        <div style={{ justifyContent: 'center', backgroundColor: '', margin: '' }}>
+
+
+
+
+
+          <div class="col-10 shadow p-3 mb-3 mt-3 mx-4 bg-white rounded text-center">
+
+            <Image
+              src={piping}
+              alt='piping'
+              height={50}
+              width={50}
+              style={{ backgroundColor: '', borderRadius: '25px', padding: '5px', border: '1px solid red' }}
+            />
+            <h4 style={{ backgroundColor: '', paddingBottom: '10px', paddingTop: '10px' }}>Piping</h4>
+
+            <ul style={{ backgroundColor: '', textAlign: 'left', justifyContent: '', display: 'inline-block' }}>
+              <li>Chilled water</li>
+              <li>Hot water</li>
+              <li>Domestic water</li>
+              <li>Chilled water</li>
+            </ul>
+          </div>
+
+
+
+
+
+
+          <div class="col-10 shadow p-3 mb-3 mt-3 mx-4 bg-white rounded text-center">
+            <img style={{ height: '50px', width: '50px', backgroundColor: '', borderRadius: '25px', padding: '5px', color: '', border: '1px solid red' }} src="https://www.mes.gov.pk/sites/default/files/2023-06/hvac.png" alt="" />
+            <h4 style={{ backgroundColor: '', paddingBottom: '10px', paddingTop: '10px' }}>Ductwork</h4>
+            <ul style={{ backgroundColor: '', textAlign: 'left', justifyContent: '', display: 'inline-block' }}>
+              <li>Heating & Cooling</li>
+              <li>Grease exhaust</li>
+              <li>Ventilation</li>
+              <li>Breechings</li>
+            </ul>
+          </div>
+
+
+
+
+
+
+
+
+          <div class="col-10 shadow p-3 mb-3 mt-3 mx-4 bg-white rounded text-center">
+            <img style={{ height: '50px', width: '50px', backgroundColor: '', borderRadius: '25px', padding: '5px', color: '', border: '1px solid red' }} src="https://cdn2.iconfinder.com/data/icons/pfd-equipment-tool/32/Reactor-512.png" alt="" />
+            <h4 style={{ backgroundColor: '', paddingBottom: '10px', paddingTop: '10px' }}>Tanks</h4>
+            <p>All mechanical and process systems tanks</p>
+          </div>
+
+
+
+
+
+
+
+
+
+          <div class="col-10 shadow p-3 mb-3 mt-3 mx-4 bg-white rounded text-center">
+
+              <img style={{ height: '50px', width: '50px', backgroundColor: '', borderRadius: '25px', padding: '5px', color: 'red', border: '1px solid red' }} src="https://cdn-icons-png.flaticon.com/256/2983/2983881.png" alt="" />
+              <h4 style={{ backgroundColor: '', paddingBottom: '10px', paddingTop: '10px' }}>Equipment</h4>
+              <ul style={{ backgroundColor: '', textAlign: 'left', justifyContent: '', display: 'inline-block' }}>
+                <li>Chillers</li>
+                <li>Boilers</li>
+                <li>Pumps</li>
+                <li>Heat Exchangers</li>
+              </ul>
+            </div>
+
+
+
+
+            <div class="col-10 shadow p-3 mb-3 mt-3 mx-4 bg-white rounded text-center">
+
+              <img style={{ height: '50px', width: '50px', backgroundColor: '', borderRadius: '25px', padding: '5px', color: 'red', border: '1px solid red' }} src="https://cdn-icons-png.flaticon.com/512/5672/5672137.png" alt="" />
+              <h4 style={{ backgroundColor: '', paddingBottom: '10px', paddingTop: '10px' }}>Jacketing</h4>
+              <ul style={{ backgroundColor: '', textAlign: 'left', justifyContent: '', display: 'inline-block' }}>
+                <li>Aluminum jacketing</li>
+                <li>Stainless steel</li>
+                <li>PVC</li>
+                <li>Direct burial jacketing</li>
+              </ul>
+            </div>
+
+
+
+
+            <div class="col-10 shadow p-3 mb-3 mt-3 mx-4 bg-white rounded text-center">
+
+              <Image
+                src={consulting}
+                alt='piping'
+                height={50}
+                width={50}
+                style={{ backgroundColor: '', borderRadius: '25px', padding: '5px', border: '1px solid red' }}
+              />
+              <h4 style={{ backgroundColor: '', paddingBottom: '10px', paddingTop: '10px' }}>Consulting</h4>
+              <p style={{  }}>Have questions?</p>
+              <p>
+                <span style={{ color: 'blue', fontWeight:'600' }}>Contact us</span>
+                <br />
+                Monday thru Friday
+                <br />
+
+                
+                9:00AM - 5:30PM
+                <br />
+                for a free consultation!
+              </p>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+      </div>
 
 
 
@@ -271,7 +435,7 @@ export default function Home() {
 
 
       <div style={{ textAlign: "center", backgroundColor: "#f1f1f1f2", padding: "40px", paddingBottom: "120px" }}>
-        <h6 style={{ padding: "0", margin: "0" }}>Contrary to popular belief. <b><a style={{ color: "black" }} href="">Build Your Dream Now!</a></b></h6>
+        <h6 style={{ padding: "0", margin: "0" }}>See all our projects. <b><a style={{ color: "black" }} href="/#gallery">Build Your Dream Now!</a></b></h6>
       </div>
 
 
@@ -511,7 +675,7 @@ export default function Home() {
 
 
       {/*-------------------- Sponsored companies ---------------------*/}
-      <div style={{ backgroundColor: "white", borderTop: "1px solid #c0bdbdf2" }}>
+      <div className={styles.sponsoredList} style={{ backgroundColor: "white", borderTop: "1px solid #c0bdbdf2" }}>
         <Row style={{ display: "", width: "70vw", backgroundColor: "", margin: "auto", paddingTop: "60px", paddingBottom: "60px", position: 'relative' }}>
           <Col style={{ backgroundColor: "", paddingLeft: "0" }}><Image src={pabco} alt="pabco" fill sizes="(max-width: 768px) 100vw, 33vw" style={{ position: "" }} /></Col>
           <Col style={{ backgroundColor: "" }}><Image src={threem} alt="3m" fill sizes="(max-width: 768px) 100vw, 33vw" style={{ position: "" }} /></Col>
@@ -621,7 +785,7 @@ export default function Home() {
 
       {/*-------------------- Request a Quote window ---------------------*/}
 
-      <div style={{ backgroundColor: "#DADADA", marginBottom: "", paddingBottom: "300px" }}>
+      <div className={styles.quoteWindow} style={{ backgroundColor: "#DADADA", marginBottom: "", paddingBottom: "300px" }}>
         <div style={{ display: "", backgroundColor: "white", paddingLeft: "50px", paddingRight: "50px", paddingTop: "50px", width: "70vw", margin: "auto", borderRadius: "8px", transform: "translate(0, -100px)" }}>
 
 
@@ -736,7 +900,7 @@ export default function Home() {
 
         {/*-------------------- client testimony ---------------------*/}
         {/* gave display none in css */}
-        
+
         <div className={styles.testimony}>
 
 

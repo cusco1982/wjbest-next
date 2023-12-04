@@ -485,18 +485,50 @@
 
 
 
+}
 
 
 
 
+.smallServices{
+  display: none;
+}
 
 
 
+/* IPHONE 14 pro max */
+@media only screen and (max-width: 500px) and (min-width: 0px) {
+  .servicesRow {
+
+    display: none;
+
+  }
+
+  .smallServices{
+    display: inline-block;
+  }
 
 
+  .videoRow{
+    display: none;
+  }
 
+
+  .sponsoredList{
+    margin-bottom: 200px;
+  }
+
+
+  .quoteBkg{
+    display: none;
+  }
+
+  .quoteWindow{
+    display: none;
+  }
 
 
 
 
 }
+

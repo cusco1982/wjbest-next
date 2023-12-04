@@ -17,7 +17,7 @@ function Toolbar() {
   useEffect(() => {
     if (typeof window !== "undefined") {
       window.addEventListener("scroll", () =>
-        setSmall(window.pageYOffset > 200)
+        setSmall(window.pageYOffset > 30)
       );
     }
   }, []);
@@ -34,7 +34,9 @@ function Toolbar() {
     else{
       var elms = document.querySelectorAll("[id='links']");
       for(var i = 0; i < elms.length; i++) 
-        elms[i].style.color = "white";
+        // elms[i].style.color = "white";
+        elms[i].style.color = "black";
+
     }
   });
 
