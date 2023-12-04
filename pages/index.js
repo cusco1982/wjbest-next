@@ -174,7 +174,7 @@ export default function Home() {
 
       {/*-------------------- Services column ---------------------*/}
 
-      <div style={{ paddingBottom: "52.5px", backgroundColor: "#f1f1f1f2", paddingTop: '50px' }}>
+      <div id='servicegrid' style={{ paddingBottom: "52.5px", backgroundColor: "#f1f1f1f2", paddingTop: '50px' }}>
         <Col style={{ backgroundColor: "", textAlign: "center" }}>
           <h6 style={{ color: "#FF6710", margin: "0" }}>The Best A Grade Commercial & Industrial Services</h6>
           <h3 style={{ margin: "0" }}>High Quality Construction Solution</h3>
@@ -539,7 +539,7 @@ export default function Home() {
 
 
       {/*-------------------- Recent Works ---------------------*/}
-      <div style={{ textAlign: "center", backgroundColor: "#f1f1f1f7", padding: "40px" }}>
+      <div id='galleryimg' style={{ textAlign: "center", backgroundColor: "#f1f1f1f7", padding: "40px", scrollMarginTop:'60px' }}>
         <h5 style={{ margin: "0", color: "#FF6710", fontWeight: "600" }}>Featured Project</h5>
         <h3 style={{ margin: "0", backgroundColor: "" }}><b>Our Recent Works</b></h3>
       </div>

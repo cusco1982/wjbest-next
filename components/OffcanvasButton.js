@@ -24,10 +24,10 @@ function OffcanvasButton() {
           <ul style={{listStyle:'none'}}>
 
 
-            <li style={{textAlign:'center', padding:'30px'}}><a style={{textDecoration:'none', color:'black', fontWeight:'600'}} href="/">HOME</a></li>
-            <li style={{textAlign:'center', padding:'30px'}}><a style={{textDecoration:'none', color:'black', fontWeight:'600'}} href="/services">SERVICES</a></li>
-            <li style={{textAlign:'center', padding:'30px'}}><a style={{textDecoration:'none', color:'black', fontWeight:'600'}} href="/#gallery">GALLERY</a></li>
-            <li style={{textAlign:'center', padding:'30px'}}><a style={{textDecoration:'none', color:'black', fontWeight:'600'}} href="/#contact">CONTACT</a></li>
+            <li style={{textAlign:'center', padding:'30px'}}><a style={{textDecoration:'none', color:'black', fontWeight:'600'}} onClick={handleClose} href="/">HOME</a></li>
+            <li style={{textAlign:'center', padding:'30px'}}><a style={{textDecoration:'none', color:'black', fontWeight:'600'}} onClick={handleClose} href="/#servicegrid">SERVICES</a></li>
+            <li style={{textAlign:'center', padding:'30px'}}><a style={{textDecoration:'none', color:'black', fontWeight:'600'}} onClick={handleClose} href="/#galleryimg">GALLERY</a></li>
+            <li style={{textAlign:'center', padding:'30px'}}><a style={{textDecoration:'none', color:'black', fontWeight:'600'}} onClick={handleClose} href="/#footernav">CONTACT</a></li>
 
 
           </ul>
