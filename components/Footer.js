@@ -10,6 +10,8 @@ const Footer = () => {
 
     return (
         <div>
+        {/* <div style={{marginBottom:'20px'}}> */}
+
 
 
 

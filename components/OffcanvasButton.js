@@ -18,11 +18,32 @@ function OffcanvasButton() {
 
       <Offcanvas show={show} onHide={handleClose}>
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+          <Offcanvas.Title style={{fontWeight:'500', fontSize:'25px', margin:'auto'}}>WJ Best Insulation, LLC</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          Some text as placeholder. In real life you can have the elements you
-          have chosen. Like, text, images, lists, etc.
+          <ul style={{listStyle:'none'}}>
+
+
+            <li style={{textAlign:'center', padding:'30px'}}><a style={{textDecoration:'none', color:'black', fontWeight:'600'}} href="/">HOME</a></li>
+            <li style={{textAlign:'center', padding:'30px'}}><a style={{textDecoration:'none', color:'black', fontWeight:'600'}} href="/services">SERVICES</a></li>
+            <li style={{textAlign:'center', padding:'30px'}}><a style={{textDecoration:'none', color:'black', fontWeight:'600'}} href="/#gallery">GALLERY</a></li>
+            <li style={{textAlign:'center', padding:'30px'}}><a style={{textDecoration:'none', color:'black', fontWeight:'600'}} href="/#contact">CONTACT</a></li>
+
+
+          </ul>
+
+
+
+          <div style={{textAlign:'center'}}> Contact: 
+          
+          <a href="tel:7329101016" style={{textDecoration:'none', marginLeft:'10px'}}>
+
+          (732) 910-1016
+          </a>
+          
+          
+          
+          </div>
         </Offcanvas.Body>
       </Offcanvas>
     </>

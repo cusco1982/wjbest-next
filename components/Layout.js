@@ -2,6 +2,7 @@ import styles from '../styles/Layout.module.css';
 import Toolbar from './Toolbar.js'
 import Footer from './Footer.js';
 
+import FixedBottomNav from './FixedBottomNav.js';
 
 
 const Layout = ({ children }) => {
@@ -21,9 +22,17 @@ const Layout = ({ children }) => {
 
             </div>
 
-            
+
 
             <Footer />
+
+
+
+            <FixedBottomNav />
+
+
+
+
         </>
 
     )
